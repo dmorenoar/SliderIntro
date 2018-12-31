@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA78C05321D90463004BE0CB /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA78C05221D90463004BE0CB /* Slider.swift */; };
+		FA78C05521D90A3D004BE0CB /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA78C05421D90A3D004BE0CB /* SliderView.swift */; };
+		FA78C05721D91C92004BE0CB /* UIViewSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA78C05621D91C92004BE0CB /* UIViewSlider.xib */; };
+		FA78C05921D926CA004BE0CB /* ViewControllerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA78C05821D926CA004BE0CB /* ViewControllerHome.swift */; };
 		FAAAD2B921D9008D00DBD0DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAD2B821D9008D00DBD0DF /* AppDelegate.swift */; };
 		FAAAD2BB21D9008D00DBD0DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAD2BA21D9008D00DBD0DF /* ViewController.swift */; };
 		FAAAD2BE21D9008D00DBD0DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAAD2BC21D9008D00DBD0DF /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA78C05221D90463004BE0CB /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		FA78C05421D90A3D004BE0CB /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		FA78C05621D91C92004BE0CB /* UIViewSlider.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UIViewSlider.xib; sourceTree = "<group>"; };
+		FA78C05821D926CA004BE0CB /* ViewControllerHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHome.swift; sourceTree = "<group>"; };
 		FAAAD2B521D9008D00DBD0DF /* SliderIntro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderIntro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAAD2B821D9008D00DBD0DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAAAD2BA21D9008D00DBD0DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +82,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA78C05A21DA2DD5004BE0CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAAAD2BC21D9008D00DBD0DF /* Main.storyboard */,
+				FA78C05621D91C92004BE0CB /* UIViewSlider.xib */,
+				FAAAD2C121D9009300DBD0DF /* LaunchScreen.storyboard */,
+				FA78C05421D90A3D004BE0CB /* SliderView.swift */,
+				FA78C05821D926CA004BE0CB /* ViewControllerHome.swift */,
+				FAAAD2BA21D9008D00DBD0DF /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA78C05B21DA2E05004BE0CB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA78C05221D90463004BE0CB /* Slider.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		FAAAD2AC21D9008D00DBD0DF = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +126,10 @@
 		FAAAD2B721D9008D00DBD0DF /* SliderIntro */ = {
 			isa = PBXGroup;
 			children = (
+				FA78C05B21DA2E05004BE0CB /* Models */,
+				FA78C05A21DA2DD5004BE0CB /* Views */,
 				FAAAD2B821D9008D00DBD0DF /* AppDelegate.swift */,
-				FAAAD2BA21D9008D00DBD0DF /* ViewController.swift */,
-				FAAAD2BC21D9008D00DBD0DF /* Main.storyboard */,
 				FAAAD2BF21D9009300DBD0DF /* Assets.xcassets */,
-				FAAAD2C121D9009300DBD0DF /* LaunchScreen.storyboard */,
 				FAAAD2C421D9009300DBD0DF /* Info.plist */,
 			);
 			path = SliderIntro;
@@ -230,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAAAD2C321D9009300DBD0DF /* LaunchScreen.storyboard in Resources */,
+				FA78C05721D91C92004BE0CB /* UIViewSlider.xib in Resources */,
 				FAAAD2C021D9009300DBD0DF /* Assets.xcassets in Resources */,
 				FAAAD2BE21D9008D00DBD0DF /* Main.storyboard in Resources */,
 			);
@@ -257,7 +286,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAAAD2BB21D9008D00DBD0DF /* ViewController.swift in Sources */,
+				FA78C05521D90A3D004BE0CB /* SliderView.swift in Sources */,
+				FA78C05321D90463004BE0CB /* Slider.swift in Sources */,
 				FAAAD2B921D9008D00DBD0DF /* AppDelegate.swift in Sources */,
+				FA78C05921D926CA004BE0CB /* ViewControllerHome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
